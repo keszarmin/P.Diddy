@@ -1,0 +1,45 @@
+#arrows > div > img {
+    animation: arrowAnimation infinite linear 2s;
+}
+
+@keyframes arrowAnimation{
+    0% {
+        width: 30%;
+    }
+    50% {
+        width: 40%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+
+.orb_ {
+    animation: spin infinite linear 2s;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    box-shadow: inset 0 0 50px #fff,
+                inset 20px 0 60px violet,
+                inset -20px 0 60px blue,
+                inset 20px 0 300px violet,
+                inset -20px 0 300px blue,
+                0 0 50px #fff,
+                -10px 0 60px violet,
+                10px 0 60px blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}
+  

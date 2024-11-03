@@ -1,0 +1,58 @@
+.block {
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+    text-align: left;
+    height: 1280px;
+    margin-top: 100px;
+}
+
+@keyframes apper {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    } to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.orb {
+    animation: spin 2s linear infinite;
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    box-shadow: inset 0 0 50px #fff,
+                inset 20px 0 60px violet,
+                inset -20px 0 60px blue,
+                inset 20px 0 300px violet,
+                inset -20px 0 300px blue,
+                0 0 50px #fff,
+                -10px 0 60px violet,
+                10px 0 60px blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @keyframes spin {
+    0% {
+      top: 20px;
+    }
+    25% {
+      top: 22px;
+    }
+    50% {
+      top: 30px;
+    }
+    75% {
+      top: 27px;
+    }
+    100% {
+      transform: rotate(360deg);
+      top: 20px;
+    }
+  }
+  
