@@ -1,0 +1,23 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 40px;
+}
+  
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+  
+.card.flipped {
+    background-color: #fff;
+}
+  

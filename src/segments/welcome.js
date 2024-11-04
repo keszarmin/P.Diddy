@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import PD_img from "../assest/P.Diddy-full-body.png"
 import './welcome.css'
 
 function welcome() {
@@ -35,7 +34,7 @@ function welcome() {
             </div>
             <div className="h-[100vh] w-full flex justify-center items-center">
                 
-                <Link to={"/start"} className="absolute z-10 text-2xl hover:text-4xl duration-100">Folytatás</Link>    
+                <Link to={"/start"} className="absolute z-10 text-2xl hover:text-4xl duration-100 mt-10">Folytatás</Link>    
                 <div className="orb">
                 </div>
                 
