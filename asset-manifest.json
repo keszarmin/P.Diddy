@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/P.Diddy/static/css/main.44d21094.css",
-    "main.js": "/P.Diddy/static/js/main.3f669e0f.js",
+    "main.js": "/P.Diddy/static/js/main.efeeb87f.js",
     "static/media/NOBG_TICK.png": "/P.Diddy/static/media/NOBG_TICK.1f77e3ccc8898e13e11e.png",
     "static/media/Right_Arrow-removebg-preview.png": "/P.Diddy/static/media/Right_Arrow-removebg-preview.2c726fe4b6c88b618046.png",
     "static/media/IIcon.jpeg": "/P.Diddy/static/media/IIcon.0766cfab9a1f52b434d2.jpeg",
     "index.html": "/P.Diddy/index.html",
     "main.44d21094.css.map": "/P.Diddy/static/css/main.44d21094.css.map",
-    "main.3f669e0f.js.map": "/P.Diddy/static/js/main.3f669e0f.js.map"
+    "main.efeeb87f.js.map": "/P.Diddy/static/js/main.efeeb87f.js.map"
   },
   "entrypoints": [
     "static/css/main.44d21094.css",
-    "static/js/main.3f669e0f.js"
+    "static/js/main.efeeb87f.js"
   ]
 }
