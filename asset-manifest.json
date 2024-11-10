@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/P.Diddy/static/css/main.7fc44a92.css",
-    "main.js": "/P.Diddy/static/js/main.cfaed524.js",
+    "main.css": "/P.Diddy/static/css/main.e05274e3.css",
+    "main.js": "/P.Diddy/static/js/main.af0024c9.js",
     "static/media/NOBGWOODDOOR.png": "/P.Diddy/static/media/NOBGWOODDOOR.c671f49c0b69b6a3deb9.png",
     "static/media/NOBGBROWNDOOR.png": "/P.Diddy/static/media/NOBGBROWNDOOR.c67b6199a1d654747e4d.png",
     "static/media/NOBGANGRYP.DIDDY.png": "/P.Diddy/static/media/NOBGANGRYP.DIDDY.4c2135b47ce758c23b98.png",
+    "static/media/P.Diddy-full-body.png": "/P.Diddy/static/media/P.Diddy-full-body.71d58ec49ed0a9875b0b.png",
     "static/media/NOBGBLACKDOOR.png": "/P.Diddy/static/media/NOBGBLACKDOOR.778acd8d9c8d13b01d71.png",
     "static/media/NOBGBABYOIL.png": "/P.Diddy/static/media/NOBGBABYOIL.923c24647aa671d0152d.png",
     "static/media/NOBGGOLDENKEY.png": "/P.Diddy/static/media/NOBGGOLDENKEY.ffdec07a69264576f5d3.png",
@@ -13,11 +14,11 @@
     "static/media/Right_Arrow-removebg-preview.png": "/P.Diddy/static/media/Right_Arrow-removebg-preview.2c726fe4b6c88b618046.png",
     "static/media/IIcon.jpeg": "/P.Diddy/static/media/IIcon.0766cfab9a1f52b434d2.jpeg",
     "index.html": "/P.Diddy/index.html",
-    "main.7fc44a92.css.map": "/P.Diddy/static/css/main.7fc44a92.css.map",
-    "main.cfaed524.js.map": "/P.Diddy/static/js/main.cfaed524.js.map"
+    "main.e05274e3.css.map": "/P.Diddy/static/css/main.e05274e3.css.map",
+    "main.af0024c9.js.map": "/P.Diddy/static/js/main.af0024c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fc44a92.css",
-    "static/js/main.cfaed524.js"
+    "static/css/main.e05274e3.css",
+    "static/js/main.af0024c9.js"
   ]
 }
