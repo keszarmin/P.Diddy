@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/P.Diddy/static/css/main.44d21094.css",
-    "main.js": "/P.Diddy/static/js/main.efeeb87f.js",
+    "main.css": "/P.Diddy/static/css/main.7fc44a92.css",
+    "main.js": "/P.Diddy/static/js/main.cfaed524.js",
+    "static/media/NOBGWOODDOOR.png": "/P.Diddy/static/media/NOBGWOODDOOR.c671f49c0b69b6a3deb9.png",
+    "static/media/NOBGBROWNDOOR.png": "/P.Diddy/static/media/NOBGBROWNDOOR.c67b6199a1d654747e4d.png",
+    "static/media/NOBGANGRYP.DIDDY.png": "/P.Diddy/static/media/NOBGANGRYP.DIDDY.4c2135b47ce758c23b98.png",
+    "static/media/NOBGBLACKDOOR.png": "/P.Diddy/static/media/NOBGBLACKDOOR.778acd8d9c8d13b01d71.png",
+    "static/media/NOBGBABYOIL.png": "/P.Diddy/static/media/NOBGBABYOIL.923c24647aa671d0152d.png",
+    "static/media/NOBGGOLDENKEY.png": "/P.Diddy/static/media/NOBGGOLDENKEY.ffdec07a69264576f5d3.png",
     "static/media/NOBG_TICK.png": "/P.Diddy/static/media/NOBG_TICK.1f77e3ccc8898e13e11e.png",
+    "static/media/NOBGPHONE.png": "/P.Diddy/static/media/NOBGPHONE.74de927032bbdb543f2f.png",
     "static/media/Right_Arrow-removebg-preview.png": "/P.Diddy/static/media/Right_Arrow-removebg-preview.2c726fe4b6c88b618046.png",
     "static/media/IIcon.jpeg": "/P.Diddy/static/media/IIcon.0766cfab9a1f52b434d2.jpeg",
     "index.html": "/P.Diddy/index.html",
-    "main.44d21094.css.map": "/P.Diddy/static/css/main.44d21094.css.map",
-    "main.efeeb87f.js.map": "/P.Diddy/static/js/main.efeeb87f.js.map"
+    "main.7fc44a92.css.map": "/P.Diddy/static/css/main.7fc44a92.css.map",
+    "main.cfaed524.js.map": "/P.Diddy/static/js/main.cfaed524.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d21094.css",
-    "static/js/main.efeeb87f.js"
+    "static/css/main.7fc44a92.css",
+    "static/js/main.cfaed524.js"
   ]
 }
