@@ -33,19 +33,19 @@ const DropArea = ({OnDrop,OnDragOver}) => {
                 <div className='w-max h-max flex justify-center items-center'>
                     <div className='w-max h-max text-center'>
                         <p>42 61 62 61 20 6F 6C 61 6A</p>
-                        <img id='1' src={BLACKDOOR} onDrop={OnDrop} onDragOver={OnDragOver} />
+                        <img id='BBYOIL' src={BLACKDOOR} onDrop={OnDrop} onDragOver={OnDragOver} />
                     </div>
                 </div>  
                 <div className='w-max h-max flex justify-center items-center'>
                     <div className='w-max h-max text-center'>
                         <p>6B 69 6A E1 72 61 74</p>
-                        <img id='2' src={BROWNDOOR} onDrop={OnDrop} onDragOver={OnDragOver}/>
+                        <img id='correct' src={BROWNDOOR} onDrop={OnDrop} onDragOver={OnDragOver}/>
                     </div>
                 </div>  
                 <div className='w-max h-max flex justify-center items-center'>
                     <div className='w-max h-max text-center'>
                         <p>50 2E 44 69 64 64 79</p>
-                        <img id='correct' src={WOODDOOR} onDrop={OnDrop} onDragOver={OnDragOver}    />
+                        <img id='PDIDDY' src={WOODDOOR} onDrop={OnDrop} onDragOver={OnDragOver}    />
                     </div>
                 </div>  
             </div>
@@ -65,10 +65,19 @@ function Feladat_3({setData}) {
     const handleDrop = (event) => {
         event.preventDefault();
         const target = event.target.id;
-        if (target == "correct") {
-           setData(["block","block","block"]) 
-           setIsBlured(["block","blur(10px)"])
-        } else console.warn("n");
+
+        switch (target) {
+            case "correct":
+                setData(["block","block","block"]) 
+                setIsBlured(["block","blur(10px)"])
+                break;
+            case "PDIDDY":
+                navigate("/wrongCH/PDIDDY");
+                break;
+            case "BBYOIL":
+                navigate("/wrongCH/BBYOIL");
+                break;
+        }
     }
 
     const handleDragStop = (event) => {

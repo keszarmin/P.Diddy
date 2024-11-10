@@ -8,12 +8,14 @@ import WrongCH from "./segments/task_pages/wrongCH";
 import Machine from "./segments/task_pages/2_feladat";
 import Feladat_3 from "./segments/task_pages/3_feladat";
 import About from "./segments/task_pages/About";
+import WrongCH_2 from "./segments/task_pages/wrongCH_2";
 
 function App() {
   const [Data, setData] = useState([])
   return (
     <HashRouter>
       <Routes>
+        <Route path="/wrongCH/:value" element={<WrongCH_2 SetData={setData} />} /> 
         <Route path="/About" element={<About />} />
         <Route path="/wrongCh/:value" element={<WrongCH />} />
         <Route path="/wrongCh" element={<Navigate to={"/"} replace />} />
