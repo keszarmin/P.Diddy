@@ -13,3 +13,5 @@ Ez a project egy iskolai feladat céljából készült
 ##      4. Tailwind CSS     (https://tailwindcss.com/)
 
 # A weboldalt a Github (https://github.com/) hostoloja
+
+A weboldal linkje: https://keszarmin.github.io/P.Diddy
