@@ -63,7 +63,7 @@ function Start({SetData}) {
             <button className="border-2 bg-sky-500 rounded-2xl w-[60%] h-[40%] border-sky-700 hover:border-sky-500 hover:bg-sky-700 hover:text-white hover:text-lg duration-100" onClick={() => setIsBlurd(["none","none"])} >Elolvasom a játék szabályait</button>
           </div>
           <div className="h-1/2 flex justify-center items-center">
-            <Link className="border-2 bg-green-500 rounded-2xl w-[70%] h-[50%] border-green-700 hover:border-green-500 hover:bg-green-700 hover:text-white hover:text-lg duration-100 flex justify-center items-center" to="/Feladat_1">Folytatom a játékot a szabályok elolvasása nélkül</Link>
+            <Link className="border-2 bg-green-500 rounded-2xl w-[85%] h-[50%] border-green-700 hover:border-green-500 hover:bg-green-700 hover:text-white hover:text-lg duration-100 flex justify-center items-center" to="/Feladat_1">Folytatom a játékot a szabályok elolvasása nélkül</Link>
           </div>
         </div>
       
